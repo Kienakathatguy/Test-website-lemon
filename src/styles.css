@@ -1,0 +1,218 @@
+html {
+    
+}
+
+body {
+    padding: 0; 
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    line-height: 1.3;
+    font-size: 16px;
+    /* text-align: justify; */;
+    /*em is a CSS unit relative to the font size of the parent element, while rem is a CSS unit relative to the font size of an html element.*/
+    color: rgba(30, 30, 40, 1)
+    
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Zain', sans-serif;
+    font-weight: 600; /* boldness of the text */
+    /* text-transform: uppercase */
+    /* text-style: italic */
+    /* text-decoration: overline/underline/line-through */
+}
+
+a {
+    text-decoration: none;
+    color: #3B82F6;
+}
+
+a:hover, a:focus {
+    color: #1d4ed8;
+}
+
+#navbar {
+    padding: 30px;
+ 
+}
+
+#banner {
+    object-fit: cover;
+}
+
+#logo {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+#about {
+    display: flex; /* Cho div ra hang ngang */
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 10px;  
+    padding-bottom: 30px;
+}
+
+#description {
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#daisy-image {
+    width: 50%;
+    
+}
+
+#daisy {
+    border-radius: 50px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+#banner {
+    width: 100%;
+}
+
+#achivements {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.AchivementTime {
+    color: gray;
+    margin-bottom: 20px;
+    /* margin doesn't work with span */
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#jobs-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(226, 236, 246);
+    text-align: center;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color: rgb(236, 236, 243);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.read-more {
+    float: right;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin: 13px 0;
+}
+
+#application-form label {
+    font-weight: 600;
+}
+
+#application-form input, select, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.form-group  textarea{
+    width: 80%;
+}
+
+.form-group input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"] {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 3px 5px rgb(45, 35, 66, 0.4), 0 5px 10px -4px rgb(45, 35, 66, 0.3), 0 -3px 0 #D6D6E7 inset;
+    transition: box-shadow .15s,transform .15s;
+}
+
+.form-group input[type="submit"]:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.form-group input[type="submit"]:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.form-group a[id="agreement"] {
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#footer {
+    background-color: #d1d5db;
+    padding: 10px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 35px;
+}
+
+.copyright {
+    color: gray;
+    font-size: 0.875rem;
+}
